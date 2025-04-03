@@ -1,0 +1,26 @@
+/* Services Page */
+.services-page {
+    min-height: 100vh;
+    background-color: #ffffff;
+    padding-top: 4rem; /* Add padding to account for fixed header */
+}
+
+/* Ensure smooth scrolling between sections */
+.services-page section {
+    scroll-margin-top: 4rem; /* Match the header height */
+}
+
+/* Add a subtle separator between sections */
+.services-page section:not(:last-child) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 768px) {
+    .services-page {
+        padding-top: 3rem;
+    }
+
+    .services-page section {
+        scroll-margin-top: 3rem;
+    }
+} 

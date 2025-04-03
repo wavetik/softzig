@@ -1,0 +1,22 @@
+/* Home Page */
+.home-page {
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+
+/* Ensure smooth scrolling between sections */
+.home-page section {
+    scroll-margin-top: 80px; /* Adjust based on your header height */
+}
+
+/* Add a subtle separator between sections */
+.home-page section:not(:last-child) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .home-page section {
+        scroll-margin-top: 64px; /* Adjust for mobile header height */
+    }
+}

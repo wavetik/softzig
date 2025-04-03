@@ -1,0 +1,411 @@
+/* Tech Stack Section */
+.tech-stack {
+    padding: 6rem 0;
+    background: #ffffff;
+    text-align: center;
+  }
+  
+  .tech-stack-tag {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    background-color: rgba(37, 99, 235, 0.1);
+    color: var(--primary-color);
+    border-radius: 100px;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .tech-stack-title {
+    font-size: 3.5rem;
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .tech-stack-subtitle {
+    font-size: 1.25rem;
+    color: #4b5563;
+    max-width: 800px;
+    margin: 0 auto 4rem;
+    line-height: 1.6;
+  }
+  
+  .tech-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  
+  .tech-main-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+  }
+  
+  .tech-card {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    text-align: left;
+    transition: all 0.2s ease;
+  }
+  
+  .tech-card:hover {
+    border-color: var(--primary-color);
+    transform: translateY(-2px);
+  }
+  
+  .tech-badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    background-color: rgba(37, 99, 235, 0.1);
+    color: var(--primary-color);
+    border-radius: 100px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+  
+  .tech-header h3 {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+  
+  .tech-role {
+    color: #4b5563;
+    font-size: 0.875rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .tech-users {
+    color: var(--primary-color);
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+  
+  .tech-features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .tech-features li {
+    color: #4b5563;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+    padding-left: 1.25rem;
+    position: relative;
+  }
+  
+  .tech-features li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: var(--primary-color);
+  }
+  
+  .tech-infrastructure {
+    text-align: center;
+    padding: 2.5rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    background: #ffffff;
+  }
+  
+  .tech-infrastructure h3 {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    margin-bottom: 2rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .infra-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin: 0 auto;
+    max-width: 1000px;
+  }
+  
+  .infra-item {
+    padding: 1.25rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+  }
+  
+  .infra-item:hover {
+    border-color: var(--primary-color);
+    transform: translateY(-2px);
+  }
+  
+  .infra-name {
+    display: block;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 0.25rem;
+  }
+  
+  .infra-role {
+    display: block;
+    font-size: 0.875rem;
+    color: #4b5563;
+  }
+  
+  .infra-divider {
+    height: 1px;
+    background: #e5e7eb;
+    margin: 2.5rem 0;
+  }
+  
+  .infra-certifications {
+    text-align: center;
+  }
+  
+  .infra-certifications h4 {
+    font-size: 1.25rem;
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .cert-grid {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .cert-item {
+    padding: 0.75rem 1.5rem;
+    background-color: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    font-size: 0.875rem;
+    color: #4b5563;
+    font-weight: 500;
+    transition: all 0.2s ease;
+  }
+  
+  .cert-item:hover {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+  }
+  
+  @media (max-width: 1200px) {
+    .infra-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .tech-stack-title {
+        font-size: 2.5rem;
+        line-height: 1.2;
+        margin-bottom: 1.25rem;
+        padding: 0 1rem;
+    }
+
+    .tech-stack-subtitle {
+        font-size: 1.125rem;
+        line-height: 1.6;
+        margin-bottom: 3rem;
+        padding: 0 1rem;
+    }
+
+    .tech-main-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        padding: 0 1rem;
+    }
+
+    .tech-card {
+        padding: 2rem;
+        border-radius: 12px;
+        background: #ffffff;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+        transition: all 0.3s ease;
+        border: 1px solid #e5e7eb;
+    }
+
+    .tech-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        border-color: var(--primary-color);
+    }
+
+    .tech-badge {
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        background-color: rgba(37, 99, 235, 0.1);
+        color: var(--primary-color);
+        border-radius: 100px;
+        font-size: 0.875rem;
+        font-weight: 500;
+        margin-bottom: 1rem;
+    }
+
+    .tech-header h3 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+        line-height: 1.3;
+    }
+
+    .tech-role {
+        font-size: 1rem;
+        color: #4b5563;
+        margin-bottom: 1.5rem;
+    }
+
+    .tech-users {
+        font-size: 1rem;
+        margin-bottom: 1.25rem;
+        padding: 0.5rem 1rem;
+        background: #f9fafb;
+        border-radius: 6px;
+        display: inline-block;
+    }
+
+    .tech-features {
+        margin-top: 1.5rem;
+    }
+
+    .tech-features li {
+        font-size: 1rem;
+        margin-bottom: 0.75rem;
+        padding-left: 1.5rem;
+        position: relative;
+        line-height: 1.5;
+    }
+
+    .tech-features li::before {
+        content: '•';
+        position: absolute;
+        left: 0;
+        color: var(--primary-color);
+        font-size: 1.25rem;
+        line-height: 1;
+    }
+
+    .tech-infrastructure {
+        padding: 2rem;
+        margin-top: 3rem;
+    }
+
+    .infra-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+
+    .infra-item {
+        padding: 1.25rem;
+        border-radius: 12px;
+        background: #ffffff;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+        transition: all 0.3s ease;
+    }
+
+    .infra-item:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    }
+
+    .infra-name {
+        font-size: 1.125rem;
+        margin-bottom: 0.375rem;
+    }
+
+    .infra-role {
+        font-size: 0.875rem;
+        color: #4b5563;
+    }
+
+    .cert-grid {
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+
+    .cert-item {
+        padding: 1rem;
+        text-align: center;
+        border-radius: 8px;
+        background: #f9fafb;
+        transition: all 0.2s ease;
+    }
+
+    .cert-item:hover {
+        background: #f3f4f6;
+        transform: translateY(-2px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .tech-stack-title {
+        font-size: 2rem;
+    }
+
+    .tech-stack-subtitle {
+        font-size: 1rem;
+    }
+
+    .tech-card {
+        padding: 1.5rem;
+    }
+
+    .tech-header h3 {
+        font-size: 1.25rem;
+    }
+
+    .tech-role {
+        font-size: 0.875rem;
+    }
+
+    .tech-users {
+        font-size: 0.875rem;
+        padding: 0.375rem 0.75rem;
+    }
+
+    .tech-features li {
+        font-size: 0.875rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .tech-infrastructure {
+        padding: 1.5rem;
+    }
+
+    .infra-grid {
+        gap: 0.75rem;
+    }
+
+    .infra-item {
+        padding: 1rem;
+    }
+
+    .infra-name {
+        font-size: 1rem;
+    }
+
+    .infra-role {
+        font-size: 0.75rem;
+    }
+
+    .cert-item {
+        padding: 0.875rem;
+        font-size: 0.875rem;
+    }
+  }
+  
