@@ -13,7 +13,7 @@ const Services: React.FC = () => {
             <AllServicesSection />
             <ProcessSection />
             <TechStackSection />
-            <ContactSection />
+            
         </div>
     );
 };

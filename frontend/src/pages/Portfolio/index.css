@@ -1,0 +1,12 @@
+.portfolio-page {
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.portfolio-page > * {
+    margin-bottom: 4rem;
+}
+
+.portfolio-page > *:last-child {
+    margin-bottom: 0;
+} 

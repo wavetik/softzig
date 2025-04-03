@@ -15,7 +15,7 @@ const Home: React.FC = () => {
             <ProcessSection />
             <TechStackSection />
             <PortfolioSection />
-            <ContactSection />
+            
         </div>
     );
 };

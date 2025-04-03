@@ -16,9 +16,15 @@ const Footer: React.FC = () => {
               Empowering businesses with cutting-edge AI technology and innovative software solutions.
             </p>
             <div className="social-links">
-              <a href="#" className="social-link">LinkedIn</a>
-              <a href="#" className="social-link">Twitter</a>
-              <a href="#" className="social-link">GitHub</a>
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="social-link">
+                <i className="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="social-link">
+                <i className="fab fa-twitter"></i>
+              </a>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="social-link">
+                <i className="fab fa-github"></i>
+              </a>
             </div>
           </div>
 
@@ -49,15 +55,15 @@ const Footer: React.FC = () => {
             <h3 className="footer-title">Contact Us</h3>
             <ul className="footer-contact">
               <li>
-                <span className="contact-icon">📍</span>
+                <i className="fas fa-map-marker-alt contact-icon"></i>
                 <span>123 Tech Street, Silicon Valley, CA 94025</span>
               </li>
               <li>
-                <span className="contact-icon">📧</span>
+                <i className="fas fa-envelope contact-icon"></i>
                 <a href="mailto:contact@softzig.com">contact@softzig.com</a>
               </li>
               <li>
-                <span className="contact-icon">📱</span>
+                <i className="fas fa-phone contact-icon"></i>
                 <a href="tel:+1234567890">+1 (234) 567-890</a>
               </li>
             </ul>
