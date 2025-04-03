@@ -7,15 +7,15 @@ import ContactSection from '../../components/ContactSection';
 import './index.css';
 
 const Services: React.FC = () => {
-  return (
-    <div className="services-page">
-      <ServicesHeroSection />
-      <AllServicesSection />
-      <ProcessSection />
-      <TechStackSection />
-      <ContactSection />
-    </div>
-  );
+    return (
+        <div className="services-page">
+            <ServicesHeroSection />
+            <AllServicesSection />
+            <ProcessSection />
+            <TechStackSection />
+            <ContactSection />
+        </div>
+    );
 };
 
 export default Services; 

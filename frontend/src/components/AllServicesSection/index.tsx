@@ -1,93 +1,226 @@
 import React from 'react';
 import './index.css';
 
-const services = [
-    {
-        title: "Custom Software Development",
-        description: "Enterprise-grade software solutions designed to address your specific business challenges and operational requirements.",
-        features: ["Web Applications", "Mobile Apps", "Desktop Software", "API Development"],
-        icon: "💻",
-        color: "#3B82F6"
-    },
-    {
-        title: "AI & Machine Learning",
-        description: "Leverage artificial intelligence to automate processes, gain actionable insights, and create competitive advantages.",
-        features: ["Predictive Analytics", "Natural Language Processing", "Computer Vision", "Recommendation Systems"],
-        icon: "🤖",
-        color: "#10B981"
-    },
-    {
-        title: "Cloud Infrastructure",
-        description: "Scalable, secure, and reliable cloud infrastructure with automated deployment pipelines for maximum efficiency.",
-        features: ["Cloud Migration", "DevOps & CI/CD", "Infrastructure as Code", "Cloud Security"],
-        icon: "☁️",
-        color: "#6366F1"
-    },
-    {
-        title: "Digital Transformation",
-        description: "End-to-end digital transformation services to modernize your business processes and drive growth.",
-        features: ["Process Automation", "Digital Strategy", "Legacy Modernization", "Change Management"],
-        icon: "🔄",
-        color: "#F59E0B"
-    },
-    {
-        title: "Data Analytics",
-        description: "Data-driven insights and analytics solutions for informed decision-making and business intelligence.",
-        features: ["Business Intelligence", "Data Warehousing", "Data Visualization", "Predictive Modeling"],
-        icon: "📊",
-        color: "#EC4899"
-    },
-    {
-        title: "Cybersecurity",
-        description: "Comprehensive security solutions to protect your digital assets and infrastructure from evolving threats.",
-        features: ["Security Assessment", "Threat Detection", "Compliance Management", "Security Training"],
-        icon: "🔒",
-        color: "#EF4444"
-    }
-];
-
 const AllServicesSection: React.FC = () => {
-    return (
-        <section className="services">
-            <div className="container">
-                <div className="services-tag">Enterprise Solutions</div>
-                <h2 className="services-title">Professional IT Services</h2>
-                <p className="services-subtitle">
-                    Comprehensive technology solutions tailored to meet the demands of modern businesses
-                </p>
+  return (
+    <section className="all-services">
+      <div className="container">
+        <div className="services-header">
+          <div className="services-tag">Our Services</div>
+          <h2 className="services-title">Complete IT Solutions Portfolio</h2>
+          <p className="services-subtitle">
+            Explore our comprehensive range of technology services designed to meet all your business needs
+          </p>
+        </div>
 
-                <div className="services-grid">
-                    {services.map((service, index) => (
-                        <div 
-                            key={index} 
-                            className="service-card"
-                            style={{ '--service-color': service.color } as React.CSSProperties}
-                        >
-                            <div className="service-icon">{service.icon}</div>
-                            <div className="service-content">
-                                <h3>{service.title}</h3>
-                                <p>{service.description}</p>
-                                <div className="service-features">
-                                    {service.features.map((feature, featureIndex) => (
-                                        <div key={featureIndex} className="feature-item">
-                                            <span className="feature-dot"></span>
-                                            <span>{feature}</span>
-                                        </div>
-                                    ))}
-                                </div>
-                                <a href="#contact" className="service-link">
-                                    Learn More
-                                    <svg className="arrow-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    ))}
-                </div>
+        <div className="services-grid">
+          <div className="service-card">
+            <div className="service-icon">
+              <i className="fas fa-code"></i>
             </div>
-        </section>
-    );
+            <div className="service-content">
+              <h3>Custom Software Development</h3>
+              <p>Enterprise-grade software solutions designed to address your specific business challenges and operational requirements.</p>
+              <ul className="service-features">
+                <li><i className="fas fa-check"></i> Web Applications</li>
+                <li><i className="fas fa-check"></i> Mobile Apps</li>
+                <li><i className="fas fa-check"></i> Desktop Software</li>
+                <li><i className="fas fa-check"></i> API Development</li>
+              </ul>
+              <a href="/services/custom-software" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div className="service-card">
+            <div className="service-icon">
+              <i className="fas fa-brain"></i>
+            </div>
+            <div className="service-content">
+              <h3>AI & Machine Learning</h3>
+              <p>Leverage artificial intelligence to automate processes, gain actionable insights, and create competitive advantages.</p>
+              <ul className="service-features">
+                <li><i className="fas fa-check"></i> Predictive Analytics</li>
+                <li><i className="fas fa-check"></i> Natural Language Processing</li>
+                <li><i className="fas fa-check"></i> Computer Vision</li>
+                <li><i className="fas fa-check"></i> Recommendation Systems</li>
+              </ul>
+              <a href="/services/ai-ml" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div className="service-card">
+            <div className="service-icon">
+              <i className="fas fa-cloud"></i>
+            </div>
+            <div className="service-content">
+              <h3>Cloud Infrastructure</h3>
+              <p>Scalable, secure, and reliable cloud infrastructure with automated deployment pipelines for maximum efficiency.</p>
+              <ul className="service-features">
+                <li><i className="fas fa-check"></i> AWS/Azure/GCP</li>
+                <li><i className="fas fa-check"></i> Cloud Migration</li>
+                <li><i className="fas fa-check"></i> Serverless Architecture</li>
+                <li><i className="fas fa-check"></i> CI/CD Implementation</li>
+              </ul>
+              <a href="/services/cloud" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div className="service-card">
+            <div className="service-icon">
+              <i className="fas fa-power-off"></i>
+            </div>
+            <div className="service-content">
+              <h3>Power Apps Development</h3>
+              <p>Build powerful, scalable business applications with Microsoft Power Platform. Create custom solutions that integrate seamlessly with your existing systems.</p>
+              <ul className="service-features">
+                <li><i className="fas fa-check"></i> Canvas Apps</li>
+                <li><i className="fas fa-check"></i> Model-Driven Apps</li>
+                <li><i className="fas fa-check"></i> Power Automate</li>
+                <li><i className="fas fa-check"></i> Power BI Integration</li>
+              </ul>
+              <a href="/services/power-apps" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div className="service-card">
+            <div className="service-icon">
+              <i className="fas fa-shield-alt"></i>
+            </div>
+            <div className="service-content">
+              <h3>Cybersecurity</h3>
+              <p>Enterprise-grade security solutions to protect your digital assets and infrastructure.</p>
+              <ul className="service-features">
+                <li><i className="fas fa-check"></i> Security Audits</li>
+                <li><i className="fas fa-check"></i> Threat Detection</li>
+                <li><i className="fas fa-check"></i> Compliance Management</li>
+                <li><i className="fas fa-check"></i> Incident Response</li>
+              </ul>
+              <a href="/services/cybersecurity" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div className="service-card">
+            <div className="service-icon">
+              <i className="fas fa-chart-line"></i>
+            </div>
+            <div className="service-content">
+              <h3>Data Analytics</h3>
+              <p>Transform raw data into actionable business intelligence and strategic insights.</p>
+              <ul className="service-features">
+                <li><i className="fas fa-check"></i> Business Intelligence</li>
+                <li><i className="fas fa-check"></i> Data Visualization</li>
+                <li><i className="fas fa-check"></i> Reporting Dashboards</li>
+                <li><i className="fas fa-check"></i> Data Warehousing</li>
+              </ul>
+              <a href="/services/data-analytics" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div className="service-card">
+            <div className="service-icon">
+              <i className="fas fa-sync"></i>
+            </div>
+            <div className="service-content">
+              <h3>Digital Transformation</h3>
+              <p>Guide your organization through the digital transformation journey with our expertise.</p>
+              <ul className="service-features">
+                <li><i className="fas fa-check"></i> Process Automation</li>
+                <li><i className="fas fa-check"></i> Digital Strategy</li>
+                <li><i className="fas fa-check"></i> Change Management</li>
+                <li><i className="fas fa-check"></i> Technology Integration</li>
+              </ul>
+              <a href="/services/digital-transformation" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div className="service-card">
+            <div className="service-icon">
+              <i className="fas fa-mobile-alt"></i>
+            </div>
+            <div className="service-content">
+              <h3>Mobile App Development</h3>
+              <p>Create engaging and powerful mobile applications for iOS and Android platforms.</p>
+              <ul className="service-features">
+                <li><i className="fas fa-check"></i> Native Apps</li>
+                <li><i className="fas fa-check"></i> Cross-Platform</li>
+                <li><i className="fas fa-check"></i> UI/UX Design</li>
+                <li><i className="fas fa-check"></i> App Maintenance</li>
+              </ul>
+              <a href="/services/mobile-apps" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div className="service-card">
+            <div className="service-icon">
+              <i className="fas fa-database"></i>
+            </div>
+            <div className="service-content">
+              <h3>Database Solutions</h3>
+              <p>Comprehensive database management and optimization services.</p>
+              <ul className="service-features">
+                <li><i className="fas fa-check"></i> Database Design</li>
+                <li><i className="fas fa-check"></i> Performance Tuning</li>
+                <li><i className="fas fa-check"></i> Data Migration</li>
+                <li><i className="fas fa-check"></i> Backup & Recovery</li>
+              </ul>
+              <a href="/services/database" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div className="service-card">
+            <div className="service-icon">
+              <i className="fas fa-network-wired"></i>
+            </div>
+            <div className="service-content">
+              <h3>Network Solutions</h3>
+              <p>Design and implement robust network infrastructure for your business.</p>
+              <ul className="service-features">
+                <li><i className="fas fa-check"></i> Network Design</li>
+                <li><i className="fas fa-check"></i> Security Implementation</li>
+                <li><i className="fas fa-check"></i> Performance Monitoring</li>
+                <li><i className="fas fa-check"></i> Troubleshooting</li>
+              </ul>
+              <a href="/services/network" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div className="service-card">
+            <div className="service-icon">
+              <i className="fas fa-robot"></i>
+            </div>
+            <div className="service-content">
+              <h3>RPA Solutions</h3>
+              <p>Automate repetitive tasks and streamline business processes with RPA.</p>
+              <ul className="service-features">
+                <li><i className="fas fa-check"></i> Process Automation</li>
+                <li><i className="fas fa-check"></i> Workflow Optimization</li>
+                <li><i className="fas fa-check"></i> Bot Development</li>
+                <li><i className="fas fa-check"></i> Integration Services</li>
+              </ul>
+              <a href="/services/rpa" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div className="service-card">
+            <div className="service-icon">
+              <i className="fas fa-headset"></i>
+            </div>
+            <div className="service-content">
+              <h3>IT Support Services</h3>
+              <p>Comprehensive IT support and maintenance services for your business.</p>
+              <ul className="service-features">
+                <li><i className="fas fa-check"></i> Help Desk Support</li>
+                <li><i className="fas fa-check"></i> System Maintenance</li>
+                <li><i className="fas fa-check"></i> Hardware Support</li>
+                <li><i className="fas fa-check"></i> Software Support</li>
+              </ul>
+              <a href="/services/it-support" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default AllServicesSection; 

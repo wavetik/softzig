@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 
-const ServicesSection: React.FC = () => {
+const HighlightedServicesSection: React.FC = () => {
   return (
     <section className="services">
       <div className="container">
@@ -14,6 +14,22 @@ const ServicesSection: React.FC = () => {
         </div>
 
         <div className="services-grid">
+          <div className="service-card">
+            <div className="service-icon">
+              <i className="fas fa-code"></i>
+            </div>
+            <div className="service-content">
+              <h3>Custom Software Development</h3>
+              <p>Enterprise-grade software solutions designed to address your specific business challenges and operational requirements.</p>
+              <ul className="service-features">
+                <li><i className="fas fa-check"></i> Web Applications</li>
+                <li><i className="fas fa-check"></i> Mobile Apps</li>
+                <li><i className="fas fa-check"></i> Desktop Software</li>
+                <li><i className="fas fa-check"></i> API Development</li>
+              </ul>
+              <a href="/services" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
 
           <div className="service-card">
             <div className="service-icon">
@@ -28,7 +44,7 @@ const ServicesSection: React.FC = () => {
                 <li><i className="fas fa-check"></i> Computer Vision</li>
                 <li><i className="fas fa-check"></i> Recommendation Systems</li>
               </ul>
-              <a href="#contact" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a>
+              <a href="/services" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a>
             </div>
           </div>
 
@@ -45,7 +61,7 @@ const ServicesSection: React.FC = () => {
                 <li><i className="fas fa-check"></i> Serverless Architecture</li>
                 <li><i className="fas fa-check"></i> CI/CD Implementation</li>
               </ul>
-              <a href="#contact" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a>
+              <a href="/services" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a>
             </div>
           </div>
 
@@ -62,7 +78,7 @@ const ServicesSection: React.FC = () => {
                 <li><i className="fas fa-check"></i> Power Automate</li>
                 <li><i className="fas fa-check"></i> Power BI Integration</li>
               </ul>
-              <a href="#contact" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a>
+              <a href="/services" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a>
             </div>
           </div>
 
@@ -79,7 +95,7 @@ const ServicesSection: React.FC = () => {
                 <li><i className="fas fa-check"></i> Compliance Management</li>
                 <li><i className="fas fa-check"></i> Incident Response</li>
               </ul>
-              <a href="#contact" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a>
+              <a href="/services" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a>
             </div>
           </div>
 
@@ -96,34 +112,17 @@ const ServicesSection: React.FC = () => {
                 <li><i className="fas fa-check"></i> Reporting Dashboards</li>
                 <li><i className="fas fa-check"></i> Data Warehousing</li>
               </ul>
-              <a href="#contact" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a>
-            </div>
-          </div>
-
-          <div className="service-card">
-            <div className="service-icon">
-              <i className="fas fa-digital-tachograph"></i>
-            </div>
-            <div className="service-content">
-              <h3>Digital Transformation</h3>
-              <p>Strategic technology adoption to modernize operations and drive business growth.</p>
-              <ul className="service-features">
-                <li><i className="fas fa-check"></i> Process Automation</li>
-                <li><i className="fas fa-check"></i> Legacy Modernization</li>
-                <li><i className="fas fa-check"></i> Digital Strategy</li>
-                <li><i className="fas fa-check"></i> Change Management</li>
-              </ul>
-              <a href="#contact" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a>
+              <a href="/services" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a>
             </div>
           </div>
         </div>
 
         <div className="services-cta">
-          <a href="#contact" className="cta-button">Explore All Services</a>
+          <a href="/services" className="cta-button">View All Services</a>
         </div>
       </div>
     </section>
   );
 };
 
-export default ServicesSection;
+export default HighlightedServicesSection; 
