@@ -4,13 +4,14 @@ import HighlightedServicesSection from '../../components/HighlightedServicesSect
 import ProcessSection from '../../components/ProcessSection';
 import TechStackSection from '../../components/TechStackSection';
 import PortfolioSection from '../../components/PortfolioSection';
-import ContactSection from '../../components/ContactSection';
 import './index.css';
+import FeaturesSection from '../../components/FeaturesSection';
 
 const Home: React.FC = () => {
     return (
         <div className="home-page">
             <HeroSection />
+            <FeaturesSection />
             <HighlightedServicesSection />
             <ProcessSection />
             <TechStackSection />

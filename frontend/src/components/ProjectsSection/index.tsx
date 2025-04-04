@@ -42,6 +42,56 @@ const projects = [
             { value: '99.9%', label: 'Uptime' }
         ],
         link: '/case-studies/cloud-migration'
+    },
+    {
+        title: 'Healthcare Management System',
+        description: 'A comprehensive healthcare management system that streamlines patient records, appointments, and billing processes.',
+        category: 'Healthcare Tech',
+        stats: [
+            { value: '200+', label: 'Hospitals' },
+            { value: '1M+', label: 'Patients Served' }
+        ],
+        link: '/case-studies/healthcare-system'
+    },
+    {
+        title: 'IoT Smart Home Solution',
+        description: 'An integrated IoT platform for smart homes, enabling seamless control of home appliances and security systems.',
+        category: 'IoT',
+        stats: [
+            { value: '10K+', label: 'Devices Connected' },
+            { value: '40%', label: 'Energy Savings' }
+        ],
+        link: '/case-studies/smart-home'
+    },
+    {
+        title: 'Blockchain Supply Chain',
+        description: 'A blockchain-based supply chain management system ensuring transparency and traceability in logistics.',
+        category: 'Blockchain',
+        stats: [
+            { value: '500+', label: 'Companies' },
+            { value: '1M+', label: 'Transactions' }
+        ],
+        link: '/case-studies/blockchain-supply'
+    },
+    {
+        title: 'AR Training Platform',
+        description: 'An augmented reality platform for employee training, providing immersive learning experiences.',
+        category: 'AR/VR',
+        stats: [
+            { value: '50K+', label: 'Users Trained' },
+            { value: '85%', label: 'Learning Retention' }
+        ],
+        link: '/case-studies/ar-training'
+    },
+    {
+        title: 'Field Service Management App',
+        description: 'A comprehensive Power Apps solution for field service teams, featuring offline capabilities, real-time updates, and seamless integration with Microsoft 365.',
+        category: 'Power Apps',
+        stats: [
+            { value: '75%', label: 'Faster Service Delivery' },
+            { value: '90%', label: 'Field Team Adoption' }
+        ],
+        link: '/case-studies/field-service-app'
     }
 ];
 
