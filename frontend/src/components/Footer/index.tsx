@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
             <p className="footer-description">
               Empowering businesses with cutting-edge AI technology and innovative software solutions.
             </p>
-            <div className="social-links">
+            {/* <div className="social-links">
               <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="social-link">
                 <i className="fab fa-linkedin-in"></i>
               </a>
@@ -25,7 +25,7 @@ const Footer: React.FC = () => {
               <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="social-link">
                 <i className="fab fa-github"></i>
               </a>
-            </div>
+            </div> */}
           </div>
 
           {/* Quick Links */}
@@ -52,19 +52,19 @@ const Footer: React.FC = () => {
 
           {/* Contact Info */}
           <div className="footer-section">
-            <h3 className="footer-title">Contact Us</h3>
+            {/* <h3 className="footer-title">Contact Us</h3> */}
             <ul className="footer-contact">
               <li>
-                <i className="fas fa-map-marker-alt contact-icon"></i>
-                <span>123 Tech Street, Silicon Valley, CA 94025</span>
+                {/* <i className="fas fa-map-marker-alt contact-icon"></i>
+                <span>123 Tech Street, Silicon Valley, CA 94025</span> */}
               </li>
               <li>
-                <i className="fas fa-envelope contact-icon"></i>
-                <a href="mailto:contact@softzig.com">contact@softzig.com</a>
+                {/* <i className="fas fa-envelope contact-icon"></i>
+                <a href="mailto:contact@softzig.com">contact@softzig.com</a> */}
               </li>
               <li>
-                <i className="fas fa-phone contact-icon"></i>
-                <a href="tel:+1234567890">+1 (234) 567-890</a>
+                {/* <i className="fas fa-phone contact-icon"></i>
+                <a href="tel:+1234567890">+1 (234) 567-890</a> */}
               </li>
             </ul>
           </div>

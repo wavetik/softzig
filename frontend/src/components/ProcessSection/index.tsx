@@ -26,7 +26,9 @@ const ProcessSection: React.FC = () => {
           <div className="timeline-number">02</div>
           <div className="timeline-content">
             <h3>Architecture Design</h3>
-            <p>The AI automatically generates and validates optimal system architecture based on your requirements, ensuring scalability, performance, and security from the ground up.</p>
+            <p>Harnessing the power of AI, we craft intelligent system architectures uniquely tailored to
+your needs. By blending human expertise with AI precision, we ensure every design delivers
+exceptional scalability, robust performance, and cutting-edge security from the ground up.</p>
           </div>
           <div className="timeline-line"></div>
         </div>
