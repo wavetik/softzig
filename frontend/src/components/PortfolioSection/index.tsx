@@ -71,9 +71,9 @@ const PortfolioSection: React.FC = () => {
       </div>
     </div>
 
-    <div className="work-cta">
+    {/* <div className="work-cta">
       <a href="#projects" className="cta-button secondary">View All Projects</a>
-    </div>
+    </div> */}
   </div>
 </section>
   );

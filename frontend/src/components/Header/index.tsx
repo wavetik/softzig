@@ -25,7 +25,7 @@ const Header: React.FC = () => {
                     <Link to="/services" onClick={() => setIsMobileMenuOpen(false)}>Services</Link>
                     <Link to="/portfolio" onClick={() => setIsMobileMenuOpen(false)}>Portfolio</Link>
                     <Link to="/contact" onClick={() => setIsMobileMenuOpen(false)}>Contact</Link>
-                    <Link to="/contact" className="nav-cta" onClick={() => setIsMobileMenuOpen(false)}>Get started</Link>
+                    {/* <Link to="/contact" className="nav-cta" onClick={() => setIsMobileMenuOpen(false)}>Get started</Link> */}
                 </div>
             </div>
         </nav>

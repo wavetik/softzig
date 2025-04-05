@@ -6,11 +6,11 @@ const ContactSection: React.FC = () => {
 
     <section className="contact">
     <div className="container">
-      <div className="contact-tag">Get Started</div>
+      {/* <div className="contact-tag">Get Started</div>
       <h2 className="contact-title">Schedule Your Demo</h2>
       <p className="contact-subtitle">
         Experience the power of AI-driven development firsthand. Let's discuss how we can transform your development process.
-      </p>
+      </p> */}
 
       <div className="contact-grid">
         <div className="contact-form-wrapper">
@@ -31,7 +31,7 @@ const ContactSection: React.FC = () => {
               <label htmlFor="message">Project Details</label>
               <textarea id="message" placeholder="Tell us about your project requirements" required></textarea>
             </div>
-            <button type="submit" className="cta-button">Schedule Demo</button>
+            <button type="submit" className="cta-button">Submit</button>
           </form>
         </div>
 

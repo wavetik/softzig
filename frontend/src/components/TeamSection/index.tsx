@@ -4,7 +4,7 @@ import './index.css';
 const TeamSection: React.FC = () => {
     return (
         <section className="team">
-            <div className="container">
+            {/* <div className="container">
                 <div className="section-header">
                     <h2>Our Team</h2>
                     <p className="section-subtitle">
@@ -82,7 +82,7 @@ const TeamSection: React.FC = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </section>
     );
 };
