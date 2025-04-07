@@ -29,7 +29,7 @@ const PortfolioSection: React.FC = () => {
           </div>
         </div>
         
-        <a href="#case-study" className="project-link">View Case Study →</a>
+        {/* <a href="#case-study" className="project-link">View Case Study →</a> */}
       </div>
 
       <div className="project-card">
@@ -48,7 +48,7 @@ const PortfolioSection: React.FC = () => {
           </div>
         </div>
         
-        <a href="#case-study" className="project-link">View Case Study →</a>
+        {/* <a href="#case-study" className="project-link">View Case Study →</a> */}
       </div>
 
       <div className="project-card">
@@ -67,7 +67,7 @@ const PortfolioSection: React.FC = () => {
           </div>
         </div>
         
-        <a href="#case-study" className="project-link">View Case Study →</a>
+        {/* <a href="#case-study" className="project-link">View Case Study →</a> */}
       </div>
     </div>
 

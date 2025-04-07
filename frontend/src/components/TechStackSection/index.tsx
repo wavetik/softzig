@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
-import { FaReact, FaNodeJs } from 'react-icons/fa';
-import { SiPython, SiTensorflow } from 'react-icons/si';
+import { FaReact, FaNodeJs, FaShieldAlt, FaLock, FaCertificate } from 'react-icons/fa';
+import { SiPython, SiTensorflow, SiAmazon, SiDocker, SiKubernetes, SiGraphql, SiMongodb, SiRedis } from 'react-icons/si';
 
 const TechStackSection: React.FC = () => {
   return (
@@ -96,26 +96,44 @@ const TechStackSection: React.FC = () => {
             <h3>Enterprise Infrastructure</h3>
             <div className="infra-grid">
               <div className="infra-item">
+                <div className="infra-icon">
+                  <SiAmazon className="infra-icon-aws" />
+                </div>
                 <span className="infra-name">AWS</span>
                 <span className="infra-role">Cloud Infrastructure</span>
               </div>
               <div className="infra-item">
+                <div className="infra-icon">
+                  <SiDocker className="infra-icon-docker" />
+                </div>
                 <span className="infra-name">Docker</span>
                 <span className="infra-role">Containerization</span>
               </div>
               <div className="infra-item">
+                <div className="infra-icon">
+                  <SiKubernetes className="infra-icon-kubernetes" />
+                </div>
                 <span className="infra-name">Kubernetes</span>
                 <span className="infra-role">Orchestration</span>
               </div>
               <div className="infra-item">
+                <div className="infra-icon">
+                  <SiGraphql className="infra-icon-graphql" />
+                </div>
                 <span className="infra-name">GraphQL</span>
                 <span className="infra-role">API Architecture</span>
               </div>
               <div className="infra-item">
+                <div className="infra-icon">
+                  <SiMongodb className="infra-icon-mongodb" />
+                </div>
                 <span className="infra-name">MongoDB</span>
                 <span className="infra-role">Database</span>
               </div>
               <div className="infra-item">
+                <div className="infra-icon">
+                  <SiRedis className="infra-icon-redis" />
+                </div>
                 <span className="infra-name">Redis</span>
                 <span className="infra-role">Caching Layer</span>
               </div>
@@ -126,9 +144,24 @@ const TechStackSection: React.FC = () => {
             <div className="infra-certifications">
               <h4>Security & Compliance</h4>
               <div className="cert-grid">
-                <div className="cert-item">SOC 2 Certified</div>
-                <div className="cert-item">GDPR Compliant</div>
-                <div className="cert-item">ISO 27001</div>
+                <div className="cert-item">
+                  <div className="cert-icon">
+                    <FaShieldAlt className="cert-icon-shield" />
+                  </div>
+                  <span>SOC 2 Certified</span>
+                </div>
+                <div className="cert-item">
+                  <div className="cert-icon">
+                    <FaLock className="cert-icon-lock" />
+                  </div>
+                  <span>GDPR Compliant</span>
+                </div>
+                <div className="cert-item">
+                  <div className="cert-icon">
+                    <FaCertificate className="cert-icon-cert" />
+                  </div>
+                  <span>ISO 27001</span>
+                </div>
               </div>
             </div>
           </div>

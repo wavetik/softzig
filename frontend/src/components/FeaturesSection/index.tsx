@@ -8,7 +8,7 @@ const FeaturesSection: React.FC = () => {
                 <div className="features-tag">Revolutionary Approach</div>
                 <h2 className="features-title">Redefining Software Development</h2>
                 <p className="features-subtitle">
-                    Our AI-powered platform automates and accelerates every phase of the development lifecycle, from ideation to deployment.
+                   Leveraging the power of AI to streamline and optimize every phase of the development lifecycle, from ideation to deployment
                 </p>
 
                 <div className="features-grid">
@@ -19,13 +19,13 @@ const FeaturesSection: React.FC = () => {
                     </div>
                     <div className="feature-card">
                         <div className="feature-icon">✅</div>
-                        <h3>100% Production Ready</h3>
-                        <p>Every solution we deliver is thoroughly tested, secure, and ready for immediate deployment to production.</p>
+                        <h3>Customer-Centric Approach</h3>
+                        <p>Solutions designed with clients in mind,ensuring personalized success at every step.</p>
                     </div>
                     <div className="feature-card">
                         <div className="feature-icon">🚀</div>
-                        <h3>Cutting-Edge Technology</h3>
-                        <p>Stay ahead with solutions built using the latest frameworks, libraries, and development practices.</p>
+                        <h3>Innovation-Driven Mindset</h3>
+                        <p>Continuously reimagining software development with the latest advancements in AI and technology.</p>
                     </div>
                 </div>
             </div>

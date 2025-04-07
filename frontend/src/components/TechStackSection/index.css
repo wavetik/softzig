@@ -173,15 +173,64 @@
   }
   
   .infra-item {
-    padding: 1.25rem;
+    padding: 1.5rem;
     border: 1px solid #e5e7eb;
     border-radius: 8px;
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
   }
   
   .infra-item:hover {
     border-color: var(--primary-color);
     transform: translateY(-2px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+  
+  .infra-icon {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 0.75rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+  }
+  
+  .infra-item:hover .infra-icon {
+    transform: scale(1.1);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Infrastructure-specific icon colors */
+  .infra-icon-aws {
+    color: #FF9900; /* AWS orange */
+    font-size: 1.2em; /* Slightly larger than other icons */
+  }
+  
+  .infra-icon-docker {
+    color: #2496ED; /* Docker blue */
+  }
+  
+  .infra-icon-kubernetes {
+    color: #326CE5; /* Kubernetes blue */
+  }
+  
+  .infra-icon-graphql {
+    color: #E10098; /* GraphQL pink */
+  }
+  
+  .infra-icon-mongodb {
+    color: #47A248; /* MongoDB green */
+  }
+  
+  .infra-icon-redis {
+    color: #DC382D; /* Redis red */
   }
   
   .infra-name {
@@ -218,24 +267,61 @@
   .cert-grid {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 1.5rem;
     flex-wrap: wrap;
   }
   
   .cert-item {
-    padding: 0.75rem 1.5rem;
+    padding: 1rem 1.5rem;
     background-color: #f9fafb;
     border: 1px solid #e5e7eb;
-    border-radius: 6px;
+    border-radius: 8px;
     font-size: 0.875rem;
     color: #4b5563;
     font-weight: 500;
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    min-width: 180px;
   }
   
   .cert-item:hover {
     border-color: var(--primary-color);
     color: var(--primary-color);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cert-icon {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(37, 99, 235, 0.1);
+    border-radius: 8px;
+    padding: 0.5rem;
+    transition: all 0.3s ease;
+  }
+  
+  .cert-item:hover .cert-icon {
+    background: var(--primary-color);
+    color: #ffffff;
+    transform: scale(1.1);
+  }
+  
+  /* Certification-specific icon colors */
+  .cert-icon-shield {
+    color: #10B981; /* Green for security */
+  }
+  
+  .cert-icon-lock {
+    color: #3B82F6; /* Blue for privacy */
+  }
+  
+  .cert-icon-cert {
+    color: #8B5CF6; /* Purple for certification */
   }
   
   @media (max-width: 1200px) {
@@ -329,6 +415,13 @@
     .cert-item {
         padding: 0.875rem;
         font-size: 0.875rem;
+        min-width: 160px;
+    }
+
+    .cert-icon {
+        width: 28px;
+        height: 28px;
+        padding: 0.375rem;
     }
   }
   

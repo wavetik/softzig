@@ -17,7 +17,7 @@ const ProcessSection: React.FC = () => {
           <div className="timeline-number">01</div>
           <div className="timeline-content">
             <h3>Requirements Analysis</h3>
-            <p>Our AI analyzes your project requirements and generates detailed specifications, identifying potential challenges and optimal solutions before development begins.</p>
+            <p>We analyze your project requirements and, with the support of AI, generate detailed specifications. This approach helps identify potential challenges and craft optimal solutions, setting the foundation for a seamless development process.</p>
           </div>
           <div className="timeline-line"></div>
         </div>
@@ -51,9 +51,9 @@ exceptional scalability, robust performance, and cutting-edge security from the 
         </div>
       </div>
 
-      <div className="process-cta">
+      {/* <div className="process-cta">
         <a href="#contact" className="cta-button secondary">Learn More About Our Process</a>
-      </div>
+      </div> */}
     </div>
   </section>
   );
