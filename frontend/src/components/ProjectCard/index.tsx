@@ -19,14 +19,14 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, category,
             <h3>{title}</h3>
             <p>{description}</p>
             
-            <div className="project-stats">
+            {/* <div className="project-stats">
                 {stats.map((stat, index) => (
                     <div key={index} className="stat-item">
                         <div className="stat-value">{stat.value}</div>
                         <div className="stat-label">{stat.label}</div>
                     </div>
                 ))}
-            </div>
+            </div> */}
             
             <a href={link} className="project-link">View Case Study →</a>
         </div>
