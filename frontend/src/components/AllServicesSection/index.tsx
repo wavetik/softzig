@@ -27,7 +27,7 @@ const AllServicesSection: React.FC = () => {
                 <li><i className="fas fa-check"></i> Desktop Software</li>
                 <li><i className="fas fa-check"></i> API Development</li>
               </ul>
-              <a href="/services/custom-software" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a>
+              {/* <a href="/services/custom-software" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a> */}
             </div>
           </div>
 
@@ -44,7 +44,7 @@ const AllServicesSection: React.FC = () => {
                 <li><i className="fas fa-check"></i> Computer Vision</li>
                 <li><i className="fas fa-check"></i> Recommendation Systems</li>
               </ul>
-              <a href="/services/ai-ml" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a>
+              {/* <a href="/services/ai-ml" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a> */}
             </div>
           </div>
 
@@ -61,7 +61,7 @@ const AllServicesSection: React.FC = () => {
                 <li><i className="fas fa-check"></i> Serverless Architecture</li>
                 <li><i className="fas fa-check"></i> CI/CD Implementation</li>
               </ul>
-              <a href="/services/cloud" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a>
+              {/* <a href="/services/cloud" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a> */}
             </div>
           </div>
 
@@ -78,7 +78,7 @@ const AllServicesSection: React.FC = () => {
                 <li><i className="fas fa-check"></i> Power Automate</li>
                 <li><i className="fas fa-check"></i> Power BI Integration</li>
               </ul>
-              <a href="/services/power-apps" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a>
+              {/* <a href="/services/power-apps" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a> */}
             </div>
           </div>
 
@@ -95,7 +95,7 @@ const AllServicesSection: React.FC = () => {
                 <li><i className="fas fa-check"></i> Compliance Management</li>
                 <li><i className="fas fa-check"></i> Incident Response</li>
               </ul>
-              <a href="/services/cybersecurity" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a>
+              {/* <a href="/services/cybersecurity" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a> */}
             </div>
           </div>
 
@@ -112,7 +112,7 @@ const AllServicesSection: React.FC = () => {
                 <li><i className="fas fa-check"></i> Reporting Dashboards</li>
                 <li><i className="fas fa-check"></i> Data Warehousing</li>
               </ul>
-              <a href="/services/data-analytics" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a>
+              {/* <a href="/services/data-analytics" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a> */}
             </div>
           </div>
 
@@ -129,7 +129,7 @@ const AllServicesSection: React.FC = () => {
                 <li><i className="fas fa-check"></i> Change Management</li>
                 <li><i className="fas fa-check"></i> Technology Integration</li>
               </ul>
-              <a href="/services/digital-transformation" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a>
+              {/* <a href="/services/digital-transformation" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a> */}
             </div>
           </div>
 
@@ -146,7 +146,7 @@ const AllServicesSection: React.FC = () => {
                 <li><i className="fas fa-check"></i> UI/UX Design</li>
                 <li><i className="fas fa-check"></i> App Maintenance</li>
               </ul>
-              <a href="/services/mobile-apps" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a>
+              {/* <a href="/services/mobile-apps" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a> */}
             </div>
           </div>
 
@@ -163,7 +163,7 @@ const AllServicesSection: React.FC = () => {
                 <li><i className="fas fa-check"></i> Data Migration</li>
                 <li><i className="fas fa-check"></i> Backup & Recovery</li>
               </ul>
-              <a href="/services/database" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a>
+              {/* <a href="/services/database" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a> */}
             </div>
           </div>
 
@@ -180,7 +180,7 @@ const AllServicesSection: React.FC = () => {
                 <li><i className="fas fa-check"></i> Performance Monitoring</li>
                 <li><i className="fas fa-check"></i> Troubleshooting</li>
               </ul>
-              <a href="/services/network" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a>
+              {/* <a href="/services/network" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a> */}
             </div>
           </div>
 
@@ -197,7 +197,7 @@ const AllServicesSection: React.FC = () => {
                 <li><i className="fas fa-check"></i> Bot Development</li>
                 <li><i className="fas fa-check"></i> Integration Services</li>
               </ul>
-              <a href="/services/rpa" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a>
+              {/* <a href="/services/rpa" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a> */}
             </div>
           </div>
 
@@ -214,7 +214,7 @@ const AllServicesSection: React.FC = () => {
                 <li><i className="fas fa-check"></i> Hardware Support</li>
                 <li><i className="fas fa-check"></i> Software Support</li>
               </ul>
-              <a href="/services/it-support" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a>
+              {/* <a href="/services/it-support" className="service-link">Learn More <i className="fas fa-arrow-right"></i></a> */}
             </div>
           </div>
         </div>

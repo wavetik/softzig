@@ -1,0 +1,26 @@
+.careers-cta {
+  padding: 60px 0;
+}
+.cta-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 22px 26px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 6px 18px rgba(17,24,39,0.06);
+}
+.cta-card h3 { margin: 0 0 6px; color: #0f1724; }
+.cta-card p { margin: 0; color: #6b7280; }
+.cta-link {
+  background: #2563eb;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  .cta-card { flex-direction: column; gap: 12px; text-align: center; }
+}

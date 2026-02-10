@@ -1,0 +1,58 @@
+.careers-hero {
+  padding: 88px 0 48px;
+  background: #fff;
+}
+.careers-hero .container {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: left;
+}
+.careers-hero h1 {
+  font-size: 44px;
+  color: #172033;
+  margin-bottom: 12px;
+}
+.careers-hero p {
+  color: #6b7280;
+  max-width: 720px;
+}
+.open-roles {
+  padding: 48px 0 120px;
+}
+.open-roles h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 24px;
+  color: #172033;
+}
+.roles-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.role-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 28px;
+  box-shadow: 0 6px 18px rgba(17, 24, 39, 0.06);
+}
+.role-card h3 {
+  margin: 0 0 8px;
+  color: #0f1724;
+}
+.role-card p {
+  color: #6b7280;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+.apply-link {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  .roles-grid { grid-template-columns: 1fr; }
+}

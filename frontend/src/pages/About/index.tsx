@@ -4,6 +4,7 @@ import MissionVisionSection from '../../components/MissionVisionSection';
 import TeamSection from '../../components/TeamSection';
 import ValuesSection from '../../components/ValuesSection';
 import './index.css';
+import CareersCTA from '../../components/CareersCTA';
 
 const About: React.FC = () => {
     return (
@@ -12,6 +13,7 @@ const About: React.FC = () => {
             <MissionVisionSection />
             <ValuesSection />
             <TeamSection />
+            <CareersCTA />
         </div>
     );
 };

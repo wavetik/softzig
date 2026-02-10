@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import { FaReact, FaNodeJs, FaShieldAlt, FaLock, FaCertificate } from 'react-icons/fa';
+import { FaReact, FaNodeJs, FaLock } from 'react-icons/fa';
 import { SiPython, SiTensorflow, SiAmazon, SiDocker, SiKubernetes, SiGraphql, SiMongodb, SiRedis } from 'react-icons/si';
 
 const TechStackSection: React.FC = () => {
@@ -144,24 +144,24 @@ const TechStackSection: React.FC = () => {
             <div className="infra-certifications">
               <h4>Security & Compliance</h4>
               <div className="cert-grid">
-                <div className="cert-item">
+                {/* <div className="cert-item">
                   <div className="cert-icon">
                     <FaShieldAlt className="cert-icon-shield" />
                   </div>
                   <span>SOC 2 Certified</span>
-                </div>
+                </div> */}
                 <div className="cert-item">
                   <div className="cert-icon">
                     <FaLock className="cert-icon-lock" />
                   </div>
                   <span>GDPR Compliant</span>
                 </div>
-                <div className="cert-item">
+                {/* <div className="cert-item">
                   <div className="cert-icon">
                     <FaCertificate className="cert-icon-cert" />
                   </div>
                   <span>ISO 27001</span>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

@@ -6,6 +6,7 @@ import TechStackSection from '../../components/TechStackSection';
 import PortfolioSection from '../../components/PortfolioSection';
 import './index.css';
 import FeaturesSection from '../../components/FeaturesSection';
+import CareersCTA from '../../components/CareersCTA';
 
 const Home: React.FC = () => {
     return (
@@ -16,6 +17,7 @@ const Home: React.FC = () => {
             <ProcessSection />
             <TechStackSection />
             <PortfolioSection />
+            <CareersCTA />
             
         </div>
     );

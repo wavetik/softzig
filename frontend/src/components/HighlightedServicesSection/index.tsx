@@ -7,7 +7,7 @@ const HighlightedServicesSection: React.FC = () => {
       <div className="container">
         <div className="services-header">
           <div className="services-tag">Our Expertise</div>
-          <h2 className="services-title">Comprehensive IT Solutions</h2>
+          <h2 className="services-title">Transformative Digital Solutions</h2>
           <p className="services-subtitle">
             We deliver cutting-edge technology solutions that drive business growth and innovation
           </p>
@@ -120,7 +120,7 @@ const HighlightedServicesSection: React.FC = () => {
         </div>
 
         <div className="services-cta">
-          {/* <a href="/services" className="cta-button">View All Services</a> */}
+          <a href="/services" className="cta-button">View All Services</a>
         </div>
       </div>
     </section>

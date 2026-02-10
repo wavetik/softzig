@@ -8,7 +8,7 @@ const PortfolioHeroSection: React.FC = () => {
                 <div className="contact-hero-text">
                     <h1>Our Portfolio</h1>
                     <p>Explore our diverse range of successful projects and see how we've helped businesses transform their digital presence.</p>
-                    <div className="contact-hero-stats">
+                    {/* <div className="contact-hero-stats">
                         <div className="stat-item">
                             <h3>100+</h3>
                             <p>Projects Completed</p>
@@ -21,7 +21,7 @@ const PortfolioHeroSection: React.FC = () => {
                             <h3>10+</h3>
                             <p>Years Experience</p>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="contact-hero-image">
                     <img 

@@ -3,29 +3,37 @@ import './index.css';
 
 const FeaturesSection: React.FC = () => {
     return (
-        <section className="features">
+        <section className="features features--ai">
             <div className="container">
-                <div className="features-tag">Revolutionary Approach</div>
-                <h2 className="features-title">Redefining Software Development</h2>
+                <div className="features-tag">AI-Powered Advantage</div>
+                <h2 className="features-title">Next-Gen Development<br/>Powered by AI</h2>
                 <p className="features-subtitle">
-                   Leveraging the power of AI to streamline and optimize every phase of the development lifecycle, from ideation to deployment
+                  Transforming the development landscape with cutting-edge AI technologies that revolutionize how software is built
                 </p>
 
-                <div className="features-grid">
+                <div className="features-grid features-grid--four">
                     <div className="feature-card">
-                        <div className="feature-icon">⚡</div>
-                        <h3>Rapid Development</h3>
-                        <p>Reduce development time by up to 80% with our AI-piloted automation tools and pre-built components.</p>
+                        <div className="feature-icon-box">🔒</div>
+                        <h3>Highly Secured</h3>
+                        <p>AI-assisted security audits and intelligent threat prevention implemented at every layer of your application stack.</p>
                     </div>
+
                     <div className="feature-card">
-                        <div className="feature-icon">✅</div>
-                        <h3>Customer-Centric Approach</h3>
-                        <p>Solutions designed with clients in mind,ensuring personalized success at every step.</p>
+                        <div className="feature-icon-box">⏱️</div>
+                        <h3>70% Time Reduction</h3>
+                        <p>Reduce development time by up to 70% with our AI-piloted automation tools and pre-built components.</p>
                     </div>
+
                     <div className="feature-card">
-                        <div className="feature-icon">🚀</div>
-                        <h3>Innovation-Driven Mindset</h3>
-                        <p>Continuously reimagining software development with the latest advancements in AI and technology.</p>
+                        <div className="feature-icon-box">💰</div>
+                        <h3>40% Cost Savings</h3>
+                        <p>AI-optimized resource allocation and intelligent workflow automation translate to significant cost reductions.</p>
+                    </div>
+
+                    <div className="feature-card">
+                        <div className="feature-icon-box">📊</div>
+                        <h3>Highly Organized</h3>
+                        <p>AI-driven code structuring and automated documentation ensure maintainability and clear organization.</p>
                     </div>
                 </div>
             </div>

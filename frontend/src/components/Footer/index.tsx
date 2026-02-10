@@ -32,21 +32,22 @@ const Footer: React.FC = () => {
           <div className="footer-section">
             <h3 className="footer-title">Quick Links</h3>
             <ul className="footer-links">
-              <li><a href="#about">About Us</a></li>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#portfolio">Portfolio</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
+                <li><a href="/about">About Us</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/portfolio">Portfolio</a></li>
+                <li><a href="/careers">Careers</a></li>
+                <li><a href="/contact">Contact</a></li>
+              </ul>
           </div>
 
           {/* Services */}
           <div className="footer-section">
             <h3 className="footer-title">Services</h3>
             <ul className="footer-links">
-              <li><a href="#custom-development">Custom Software Development</a></li>
-              <li><a href="#ai-ml">Power Apps Development</a></li>
-              <li><a href="#cloud">Cybersecurity</a></li>
-              <li><a href="#power-apps">Cloud Infrastructure</a></li>
+              <li><a href="/services#custom-development">Custom Software Development</a></li>
+              <li><a href="/services#power-apps">Power Apps Development</a></li>
+              <li><a href="/services#cybersecurity">Cybersecurity</a></li>
+              <li><a href="/services#cloud">Cloud Infrastructure</a></li>
             </ul>
           </div>
 
