@@ -15,7 +15,7 @@ const PortfolioSection: React.FC = () => {
     <div className="projects-grid">
       <div className="project-card">
         <div className="project-category">Voting Technology</div>
-        <h3>zigVote</h3>
+        <h3>ZigVote</h3>
         <p>SaaS-based voting platform enabling organizations to create and conduct secure online elections with encrypted ballot tracking.</p>
 
         <a href="https://zigvote.com/" className="project-link" target="_blank" rel="noopener noreferrer">View Case Study →</a>

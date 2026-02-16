@@ -1,58 +1,287 @@
+.careers-page {
+  background-color: #f8fafc;
+  color: #1e293b;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Hero Section */
 .careers-hero {
-  padding: 88px 0 48px;
-  background: #fff;
-}
-.careers-hero .container {
-  max-width: 1100px;
-  margin: 0 auto;
-  text-align: left;
-}
-.careers-hero h1 {
-  font-size: 44px;
-  color: #172033;
-  margin-bottom: 12px;
-}
-.careers-hero p {
-  color: #6b7280;
-  max-width: 720px;
-}
-.open-roles {
-  padding: 48px 0 120px;
-}
-.open-roles h2 {
+  padding: 100px 0 60px;
+  background: linear-gradient(135deg, #ffffff 0%, #f1f5f9 100%);
   text-align: center;
-  font-size: 28px;
-  margin-bottom: 24px;
-  color: #172033;
+  border-bottom: 1px solid #e2e8f0;
 }
-.roles-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 28px;
-  max-width: 1100px;
+
+.badge {
+  display: inline-block;
+  padding: 6px 16px;
+  background: rgba(37, 99, 235, 0.1);
+  color: #2563eb;
+  border-radius: 100px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.careers-hero h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 20px;
+  letter-spacing: -0.02em;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  color: #475569;
+  max-width: 700px;
   margin: 0 auto;
 }
-.role-card {
-  background: #fff;
-  border-radius: 8px;
-  padding: 28px;
-  box-shadow: 0 6px 18px rgba(17, 24, 39, 0.06);
-}
-.role-card h3 {
-  margin: 0 0 8px;
-  color: #0f1724;
-}
-.role-card p {
-  color: #6b7280;
-  font-size: 14px;
-  margin-bottom: 16px;
-}
-.apply-link {
+
+.hero-subtitle strong {
   color: #2563eb;
-  text-decoration: none;
+}
+
+/* Job Detail Section */
+.job-detail-section {
+  padding: 60px 0 100px;
+}
+
+.job-container {
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 48px;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
+  border: 1px solid #f1f5f9;
+}
+
+.job-header {
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.job-title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.job-title-wrapper h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0;
+}
+
+.job-tag {
+  background: #ecfdf5;
+  color: #059669;
+  padding: 4px 12px;
+  border-radius: 6px;
+  font-size: 14px;
   font-weight: 600;
 }
 
+.job-intro {
+  font-size: 1.1rem;
+  color: #64748b;
+  max-width: 800px;
+}
+
+/* Position Overview */
+.position-overview {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
+.overview-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 20px;
+  background: #f8fafc;
+  border-radius: 16px;
+  border: 1px solid #f1f5f9;
+  transition: all 0.3s ease;
+}
+
+.overview-item:hover {
+  border-color: #cbd5e1;
+  transform: translateY(-2px);
+}
+
+.overview-item i {
+  font-size: 1.25rem;
+  color: #2563eb;
+  margin-top: 4px;
+}
+
+.overview-item h4 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #94a3b8;
+  margin: 0 0 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.overview-item p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #334155;
+  margin: 0;
+}
+
+/* Job Content Grid */
+.job-content-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin-bottom: 48px;
+}
+
+.content-card h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.content-card h3 i {
+  color: #2563eb;
+  font-size: 1.25rem;
+}
+
+.content-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.content-card ul li {
+  margin-bottom: 16px;
+  position: relative;
+  padding-left: 24px;
+  color: #475569;
+}
+
+.content-card ul li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: #2563eb;
+  font-weight: bold;
+}
+
+.content-card ul li strong {
+  display: block;
+  color: #334155;
+  margin-bottom: 2px;
+}
+
+/* Apply Section */
+.apply-section {
+  background: #f1f5f9;
+  border-radius: 20px;
+  padding: 40px;
+  text-align: center;
+}
+
+.apply-card h3 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 12px;
+}
+
+.apply-card p {
+  color: #64748b;
+  margin-bottom: 32px;
+}
+
+.apply-action {
+  background: #ffffff;
+  display: inline-block;
+  padding: 24px 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.apply-action p {
+  margin-bottom: 16px;
+  font-weight: 600;
+  color: #334155;
+}
+
+.apply-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #2563eb;
+  color: #ffffff;
+  padding: 14px 28px;
+  border-radius: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 14px 0 rgba(37, 99, 235, 0.39);
+}
+
+.apply-button:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(37, 99, 235, 0.23);
+  color: #ffffff;
+}
+
+/* Responsive */
 @media (max-width: 900px) {
-  .roles-grid { grid-template-columns: 1fr; }
+  .careers-hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .position-overview {
+    grid-template-columns: 1fr;
+  }
+  
+  .job-content-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .job-container {
+    padding: 32px 24px;
+  }
+  
+  .job-title-wrapper h2 {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .apply-action {
+    padding: 24px;
+    width: 100%;
+  }
+  
+  .apply-button {
+    width: 100%;
+    justify-content: center;
+  }
 }

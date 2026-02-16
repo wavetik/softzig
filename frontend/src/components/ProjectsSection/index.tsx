@@ -4,7 +4,7 @@ import './index.css';
 
 const projects = [
     {
-        title: 'zigVote',
+        title: 'ZigVote',
         description: 'SaaS-based voting platform enabling organizations to create and conduct secure online elections with encrypted ballot tracking.',
         category: 'Voting Technology',
         stats: [],
