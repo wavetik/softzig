@@ -15,17 +15,20 @@ const Footer: React.FC = () => {
             <p className="footer-description">
               Empowering businesses with cutting-edge AI technology and innovative software solutions.
             </p>
-            {/* <div className="social-links">
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="social-link">
-                <i className="fab fa-linkedin-in"></i>
+            <div className="social-links">
+              <a href="https://www.linkedin.com/company/softzig/" target="_blank" rel="noopener noreferrer" className="social-link">
+                <i className="fab fa-linkedin-in social-icon"></i>
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="social-link">
-                <i className="fab fa-twitter"></i>
+              <a href="https://www.facebook.com/share/1K3rWdDX7S/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" className="social-link">
+                <i className="fab fa-facebook-f social-icon"></i>
               </a>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="social-link">
-                <i className="fab fa-github"></i>
+              <a href="https://x.com/softzigSolution" target="_blank" rel="noopener noreferrer" className="social-link">
+                <i className="fab fa-x-twitter social-icon"></i>
               </a>
-            </div> */}
+              <a href="https://www.instagram.com/softzig_solutions/" target="_blank" rel="noopener noreferrer" className="social-link">
+                <i className="fab fa-instagram social-icon"></i>
+              </a>
+            </div>
           </div>
 
           {/* Quick Links */}
@@ -73,7 +76,7 @@ const Footer: React.FC = () => {
 
         {/* Bottom Bar */}
         <div className="footer-bottom">
-          <p className="copyright">© 2024 SoftZig. All rights reserved.</p>
+          <p className="copyright">© 2026 SoftZig. All rights reserved.</p>
           <div className="footer-legal">
             <a href="#privacy">Privacy Policy</a>
             <a href="#terms">Terms of Service</a>
